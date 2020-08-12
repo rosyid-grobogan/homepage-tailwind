@@ -4,6 +4,7 @@
   "description": "Belajar Web Page dengan Tailwind",
   "main": "index.js",
   "scripts": {
+    "build:css": "tailwindcss build src/style.css -o dist/style.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Rosyid Grobogan",
