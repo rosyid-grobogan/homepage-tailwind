@@ -21,3 +21,9 @@ Build project
 ```
 npm run build:css
 ```
+
+## Belajar
+
+- Membuat Button
+- Custom Button
+- Grid System
