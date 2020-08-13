@@ -2,6 +2,8 @@ Belajar Design Menggunakan Tailwind
 
 - [Tailwind CSS](https://tailwindcss.com/)
 
+![Home](dist/images/home.png)
+
 ## Gettng Started
 
 Persiapan NPM
@@ -38,3 +40,23 @@ npm run serve
 - Custom Button
 - Grid System
 - Menjalankan Custom Script di NPM
+
+## Logs
+
+```
+npx tailwindcss init
+```
+
+Created Tailwind config file: tailwind.config.js
+
+## Membuat Konfigurasi Sendiri
+
+Prefix rg-
+
+```
+module.exports = {
+  prefix: "rg-",
+  ..
+```
+
+jadi agar setiap kode harus diawali `rg-` misal: `rg-container`.
